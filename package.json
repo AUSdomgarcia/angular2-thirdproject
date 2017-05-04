@@ -1,73 +1,38 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "angular-lessons",
-        "scope": null,
-        "escapedName": "angular-lessons",
-        "name": "angular-lessons",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "c:\\Users\\CELA_1506_035\\Code\\0002-ANGULAR\\MirkoNasato"
-    ]
-  ],
-  "_from": "angular-lessons@latest",
-  "_id": "angular-lessons@1.0.0",
-  "_inCache": true,
-  "_location": "/angular-lessons",
-  "_nodeVersion": "4.2.6",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/angular-lessons-1.0.0.tgz_1481220118280_0.3843813210260123"
-  },
-  "_npmUser": {
-    "name": "imagio",
-    "email": "1@1.ru"
-  },
-  "_npmVersion": "3.5.2",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "angular-lessons",
-    "scope": null,
-    "escapedName": "angular-lessons",
-    "name": "angular-lessons",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/angular-lessons/-/angular-lessons-1.0.0.tgz",
-  "_shasum": "4885d98aa471102eb26f2250d7c3076c972b6f7b",
-  "_shrinkwrap": null,
-  "_spec": "angular-lessons",
-  "_where": "c:\\Users\\CELA_1506_035\\Code\\0002-ANGULAR\\MirkoNasato",
-  "author": "",
-  "dependencies": {},
+  "name": "random-quote",
+  "version": "1.0.0",
   "description": "A simple Angular 2 web application that displays a random quote on the page.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "4885d98aa471102eb26f2250d7c3076c972b6f7b",
-    "tarball": "https://registry.npmjs.org/angular-lessons/-/angular-lessons-1.0.0.tgz"
+  "main": "app-dependency-injection-1.js",
+  "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.0-beta.6",
+    "systemjs": "^0.19.37",
+    "zone.js": "^0.6.12"
   },
-  "license": "ISC",
-  "main": "app.js",
-  "maintainers": [
-    {
-      "name": "imagio",
-      "email": "1@1.ru"
-    }
-  ],
-  "name": "angular-lessons",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-angular2-annotations": "5.1.0",
+    "babel-plugin-transform-decorators-legacy":"1.3.4",
+    "babel-preset-es2015":"6.14.0",
+    "concurrently":"2.2.0",
+    "lite-server":"2.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AUSdomgarcia/angular2-thirdproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AUSdomgarcia/angular2-thirdproject/issues"
+  },
+  "homepage": "https://github.com/AUSdomgarcia/angular2-thirdproject#readme"
 }
